@@ -320,6 +320,8 @@ pub(super) fn generate_contract_specific_code(
 "
     ));
 
+    println!("DUPA");
+
     generation_data.into_rewrite_node(db, diagnostics)
 }
 
